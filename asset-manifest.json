@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Boggle-Game/static/css/main.325a281c.css",
-    "main.js": "/Boggle-Game/static/js/main.90969510.js",
+    "main.css": "/Boggle-Game/static/css/main.e208854a.css",
+    "main.js": "/Boggle-Game/static/js/main.a65e9c06.js",
     "index.html": "/Boggle-Game/index.html",
-    "main.325a281c.css.map": "/Boggle-Game/static/css/main.325a281c.css.map",
-    "main.90969510.js.map": "/Boggle-Game/static/js/main.90969510.js.map"
+    "main.e208854a.css.map": "/Boggle-Game/static/css/main.e208854a.css.map",
+    "main.a65e9c06.js.map": "/Boggle-Game/static/js/main.a65e9c06.js.map"
   },
   "entrypoints": [
-    "static/css/main.325a281c.css",
-    "static/js/main.90969510.js"
+    "static/css/main.e208854a.css",
+    "static/js/main.a65e9c06.js"
   ]
 }
