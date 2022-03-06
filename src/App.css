@@ -26,6 +26,14 @@
   color:rgb(235, 237, 240)
 }
 
+.ant-page-header-heading-sub-title {
+  margin: 4px 0 0 0;
+}
+
+.ant-divider-horizontal.ant-divider-with-text {
+  margin-top: 0!important;
+}
+
 .ant-divider-horizontal.ant-divider-with-text:after, .ant-divider-horizontal.ant-divider-with-text:before {
   border-color: rgb(235, 237, 240);
 }
