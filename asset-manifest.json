@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "//obovkush.github.io/Boggle-Game/static/css/main.40e4c6f5.css",
+    "main.js": "//obovkush.github.io/Boggle-Game/static/js/main.51b5d817.js",
+    "index.html": "//obovkush.github.io/Boggle-Game/index.html",
+    "main.40e4c6f5.css.map": "//obovkush.github.io/Boggle-Game/static/css/main.40e4c6f5.css.map",
+    "main.51b5d817.js.map": "//obovkush.github.io/Boggle-Game/static/js/main.51b5d817.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40e4c6f5.css",
+    "static/js/main.51b5d817.js"
+  ]
+}
