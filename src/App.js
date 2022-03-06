@@ -2,11 +2,11 @@ import React from 'react';
 import './App.css';
 import 'antd/dist/antd.min.css';
 
-// import Complete from './components/Complete';
 import Header from './components/Header';
 import Field from './components/Grid';
 import NewGameButton from './components/ButtonNewGame';
-// import Info from './components/Card';
+import NewWordButton from './components/ButtonAddWord';
+import Info from './components/Card';
 
 function App() {
 
@@ -21,7 +21,11 @@ function App() {
       </header>
       <main className='main'>
         <Field />
-        <NewGameButton />
+        <div className='btn-block'>
+          <NewGameButton />
+          <NewWordButton />
+        </div>
+        <Info />
       </main>
     </div>
   );

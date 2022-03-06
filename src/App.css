@@ -52,11 +52,19 @@
   line-height: 2.5;
   border: 1px solid rgb(235, 237, 240);
   cursor: pointer;
+  pointer-events: none;
 }
 
-.ant-btn.ant-btn-block {
-  width: 100px;
+.btn-block {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
   margin-top: 20px;
+}
+
+.new-game-btn, .new-word-btn {
+  width: 130px!important;
+  height: 40px;
 }
 
 .cell-hover {
@@ -70,27 +78,28 @@
   color: #282c34;
 }
 
-@media (max-width: 500px) {
-
-  .ant-select {
-    width: 400px;
-  }
-
-  .ant-card {
-    width: 400px;
-  }
-
+.ant-card {
+  width: 280px;
+  line-height: 1.2;
+  margin-top: 20px;
 }
 
+.ant-card-head {
+  min-height: 20px;
+  background-color: #282c34;
+  color: rgb(235, 237, 240);
+  font-weight: 700;
+  border: 1px solid #f0f0f0;
+}
 
-@media (max-width: 400px) {
+.ant-card-head-title {
+  padding: 10px 0;
+}
 
-  .ant-select {
-    width: 350px;
-  }
-
-  .ant-card {
-    width: 350px;
-  }
-
+.ant-card-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  min-height: 100px;
+  padding: 20px;
 }
